@@ -1887,7 +1887,7 @@
 /en-US/docs/DOM/document.baseURIObject	/en-US/docs/Web/API/Node
 /en-US/docs/DOM/document.bgColor	/en-US/docs/Web/API/Document/bgColor
 /en-US/docs/DOM/document.body	/en-US/docs/Web/API/Document/body
-/en-US/docs/DOM/document.caretPositionFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint
+/en-US/docs/DOM/document.caretPositionFromPoint	/en-US/docs/Web/API/Document/caretPositionFromPoint
 /en-US/docs/DOM/document.characterSet	/en-US/docs/Web/API/document/characterSet
 /en-US/docs/DOM/document.clear	/en-US/docs/Web/API/Document/clear
 /en-US/docs/DOM/document.close	/en-US/docs/Web/API/Document/close
@@ -1914,7 +1914,7 @@
 /en-US/docs/DOM/document.documentURI	/en-US/docs/Web/API/Document/documentURI
 /en-US/docs/DOM/document.documentURIObject	/en-US/docs/Web/API/Document/documentURIObject
 /en-US/docs/DOM/document.domain	/en-US/docs/Web/API/Document/domain
-/en-US/docs/DOM/document.elementFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint
+/en-US/docs/DOM/document.elementFromPoint	/en-US/docs/Web/API/Document/elementFromPoint
 /en-US/docs/DOM/document.embeds	/en-US/docs/Web/API/Document/embeds
 /en-US/docs/DOM/document.enableStyleSheetsForSet	/en-US/docs/Web/API/Document/enableStyleSheetsForSet
 /en-US/docs/DOM/document.execCommand	/en-US/docs/Web/API/Document/execCommand
@@ -1928,7 +1928,7 @@
 /en-US/docs/DOM/document.getElementsByName	/en-US/docs/Web/API/Document/getElementsByName
 /en-US/docs/DOM/document.getElementsByTagName	/en-US/docs/Web/API/Document/getElementsByTagName
 /en-US/docs/DOM/document.getElementsByTagNameNS	/en-US/docs/Web/API/Document/getElementsByTagNameNS
-/en-US/docs/DOM/document.getSelection	/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection
+/en-US/docs/DOM/document.getSelection	/en-US/docs/Web/API/Document/getSelection
 /en-US/docs/DOM/document.hasFocus	/en-US/docs/Web/API/Document/hasFocus
 /en-US/docs/DOM/document.head	/en-US/docs/Web/API/Document/head
 /en-US/docs/DOM/document.height	/en-US/docs/Web/API/Document/height
@@ -2452,7 +2452,7 @@
 /en-US/docs/DOM:document.documentElement	/en-US/docs/Web/API/document/documentElement
 /en-US/docs/DOM:document.documentURIObject	/en-US/docs/Web/API/Document/documentURIObject
 /en-US/docs/DOM:document.domain	/en-US/docs/Web/API/Document/domain
-/en-US/docs/DOM:document.elementFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint
+/en-US/docs/DOM:document.elementFromPoint	/en-US/docs/Web/API/Document/elementFromPoint
 /en-US/docs/DOM:document.embeds	/en-US/docs/Web/API/Document/embeds
 /en-US/docs/DOM:document.fgColor	/en-US/docs/Web/API/Document/fgColor
 /en-US/docs/DOM:document.firstChild	/en-US/docs/Web/API/Node/firstChild
@@ -3285,7 +3285,7 @@
 /en-US/docs/Document_Object_Model_(DOM)/document.documentURI	/en-US/docs/Web/API/Document/documentURI
 /en-US/docs/Document_Object_Model_(DOM)/document.documentURIObject	/en-US/docs/Web/API/Document/documentURIObject
 /en-US/docs/Document_Object_Model_(DOM)/document.domain	/en-US/docs/Web/API/Document/domain
-/en-US/docs/Document_Object_Model_(DOM)/document.elementFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint
+/en-US/docs/Document_Object_Model_(DOM)/document.elementFromPoint	/en-US/docs/Web/API/Document/elementFromPoint
 /en-US/docs/Document_Object_Model_(DOM)/document.embeds	/en-US/docs/Web/API/Document/embeds
 /en-US/docs/Document_Object_Model_(DOM)/document.execCommand	/en-US/docs/Web/API/Document/execCommand
 /en-US/docs/Document_Object_Model_(DOM)/document.fgColor	/en-US/docs/Web/API/Document/fgColor
@@ -3297,7 +3297,7 @@
 /en-US/docs/Document_Object_Model_(DOM)/document.getElementsByName	/en-US/docs/Web/API/Document/getElementsByName
 /en-US/docs/Document_Object_Model_(DOM)/document.getElementsByTagName	/en-US/docs/Web/API/Document/getElementsByTagName
 /en-US/docs/Document_Object_Model_(DOM)/document.getElementsByTagNameNS	/en-US/docs/Web/API/Document/getElementsByTagNameNS
-/en-US/docs/Document_Object_Model_(DOM)/document.getSelection	/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection
+/en-US/docs/Document_Object_Model_(DOM)/document.getSelection	/en-US/docs/Web/API/Document/getSelection
 /en-US/docs/Document_Object_Model_(DOM)/document.hasFocus	/en-US/docs/Web/API/Document/hasFocus
 /en-US/docs/Document_Object_Model_(DOM)/document.head	/en-US/docs/Web/API/Document/head
 /en-US/docs/Document_Object_Model_(DOM)/document.height	/en-US/docs/Web/API/Document/height
@@ -7513,10 +7513,7 @@
 /en-US/docs/Web/API/Document/defaultView/resize_event	/en-US/docs/Web/API/Window/resize_event
 /en-US/docs/Web/API/Document/defaultView/storage_event	/en-US/docs/Web/API/Window/storage_event
 /en-US/docs/Web/API/Document/domConfig	/en-US/docs/Web/API/Document
-/en-US/docs/Web/API/Document/elementFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint
-/en-US/docs/Web/API/Document/elementsFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementsFromPoint
 /en-US/docs/Web/API/Document/firstElementChild	/en-US/docs/Web/API/ParentNode/firstElementChild
-/en-US/docs/Web/API/Document/getSelection	/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection
 /en-US/docs/Web/API/Document/inputEncoding	/en-US/docs/Web/API/document/characterSet
 /en-US/docs/Web/API/Document/lastElementChild	/en-US/docs/Web/API/ParentNode/lastElementChild
 /en-US/docs/Web/API/Document/mozCancelFullScreen	/en-US/docs/Web/API/Document/exitFullscreen
@@ -7556,10 +7553,12 @@
 /en-US/docs/Web/API/DocumentFragment/firstElementChild	/en-US/docs/Web/API/ParentNode/firstElementChild
 /en-US/docs/Web/API/DocumentFragment/lastElementChild	/en-US/docs/Web/API/ParentNode/lastElementChild
 /en-US/docs/Web/API/DocumentOrShadowRoot/activeElement	/en-US/docs/Web/API/Document/activeElement
+/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint	/en-US/docs/Web/API/Document/caretPositionFromPoint
+/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint	/en-US/docs/Web/API/Document/elementFromPoint
+/en-US/docs/Web/API/DocumentOrShadowRoot/elementsFromPoint	/en-US/docs/Web/API/Document/elementsFromPoint
 /en-US/docs/Web/API/DocumentOrShadowRoot/fullscreenElement	/en-US/docs/Web/API/Document/fullscreenElement
 /en-US/docs/Web/API/DocumentOrShadowRoot/getAnimations	/en-US/docs/Web/API/Document/getAnimations
-/en-US/docs/Web/API/DocumentOrShadowRoot/nodeFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot
-/en-US/docs/Web/API/DocumentOrShadowRoot/nodesFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot
+/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection	/en-US/docs/Web/API/Document/getSelection
 /en-US/docs/Web/API/DocumentOrShadowRoot/pictureInPictureElement	/en-US/docs/Web/API/Document/pictureInPictureElement
 /en-US/docs/Web/API/DocumentOrShadowRoot/pictureInPictureEnabled	/en-US/docs/Web/API/Document/pictureInPictureEnabled
 /en-US/docs/Web/API/DocumentOrShadowRoot/pointerLockElement	/en-US/docs/Web/API/Document/pointerLockElement
@@ -8796,6 +8795,10 @@
 /en-US/docs/Web/API/Storage.removeItem	/en-US/docs/Web/API/Storage/removeItem
 /en-US/docs/Web/API/Storage.setItem	/en-US/docs/Web/API/Storage/setItem
 /en-US/docs/Web/API/Storage/LocalStorage	/en-US/docs/Web/API/Window/localStorage
+/en-US/docs/Web/API/StorageQuota	/en-US/docs/Web/API/StorageManager
+/en-US/docs/Web/API/StorageQuota/queryInfo	/en-US/docs/Web/API/StorageManager
+/en-US/docs/Web/API/StorageQuota/requestPersistentQuota	/en-US/docs/Web/API/StorageManager
+/en-US/docs/Web/API/StorageQuota/supportedTypes	/en-US/docs/Web/API/StorageManager
 /en-US/docs/Web/API/StyleSheet.disabled	/en-US/docs/Web/API/StyleSheet/disabled
 /en-US/docs/Web/API/StyleSheet.href	/en-US/docs/Web/API/StyleSheet/href
 /en-US/docs/Web/API/StyleSheet.media	/en-US/docs/Web/API/StyleSheet/media
@@ -9263,7 +9266,7 @@
 /en-US/docs/Web/API/document.async	/en-US/docs/Web/API/XMLDocument/async
 /en-US/docs/Web/API/document.bgColor	/en-US/docs/Web/API/Document/bgColor
 /en-US/docs/Web/API/document.body	/en-US/docs/Web/API/Document/body
-/en-US/docs/Web/API/document.caretPositionFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint
+/en-US/docs/Web/API/document.caretPositionFromPoint	/en-US/docs/Web/API/Document/caretPositionFromPoint
 /en-US/docs/Web/API/document.characterSet	/en-US/docs/Web/API/document/characterSet
 /en-US/docs/Web/API/document.clear	/en-US/docs/Web/API/Document/clear
 /en-US/docs/Web/API/document.close	/en-US/docs/Web/API/Document/close
@@ -9292,7 +9295,7 @@
 /en-US/docs/Web/API/document.documentURI	/en-US/docs/Web/API/Document/documentURI
 /en-US/docs/Web/API/document.documentURIObject	/en-US/docs/Web/API/Document/documentURIObject
 /en-US/docs/Web/API/document.domain	/en-US/docs/Web/API/Document/domain
-/en-US/docs/Web/API/document.elementFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint
+/en-US/docs/Web/API/document.elementFromPoint	/en-US/docs/Web/API/Document/elementFromPoint
 /en-US/docs/Web/API/document.embeds	/en-US/docs/Web/API/Document/embeds
 /en-US/docs/Web/API/document.enableStyleSheetsForSet	/en-US/docs/Web/API/Document/enableStyleSheetsForSet
 /en-US/docs/Web/API/document.evaluate	/en-US/docs/Web/API/Document/evaluate
@@ -9307,7 +9310,7 @@
 /en-US/docs/Web/API/document.getElementsByName	/en-US/docs/Web/API/Document/getElementsByName
 /en-US/docs/Web/API/document.getElementsByTagName	/en-US/docs/Web/API/Document/getElementsByTagName
 /en-US/docs/Web/API/document.getElementsByTagNameNS	/en-US/docs/Web/API/Document/getElementsByTagNameNS
-/en-US/docs/Web/API/document.getSelection	/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection
+/en-US/docs/Web/API/document.getSelection	/en-US/docs/Web/API/Document/getSelection
 /en-US/docs/Web/API/document.hasFocus	/en-US/docs/Web/API/Document/hasFocus
 /en-US/docs/Web/API/document.head	/en-US/docs/Web/API/Document/head
 /en-US/docs/Web/API/document.height	/en-US/docs/Web/API/Document/height
@@ -9353,7 +9356,6 @@
 /en-US/docs/Web/API/document.write	/en-US/docs/Web/API/Document/write
 /en-US/docs/Web/API/document.writeln	/en-US/docs/Web/API/Document/writeln
 /en-US/docs/Web/API/document.xmlVersion	/en-US/docs/Web/API/Document/xmlVersion
-/en-US/docs/Web/API/document/caretPositionFromPoint	/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint
 /en-US/docs/Web/API/document/mozFullScreen	/en-US/docs/Web/API/Document/fullscreen
 /en-US/docs/Web/API/document/nodePrincipal	/en-US/docs/Web/API/Node
 /en-US/docs/Web/API/dummyDocument.scripts	/en-US/docs/Web/API/Document/scripts
@@ -11898,7 +11900,7 @@
 /en-US/docs/cancelBubble	/en-US/docs/Web/API/UIEvent/cancelBubble
 /en-US/docs/cancelable	/en-US/docs/Web/API/Event/cancelable
 /en-US/docs/caption	/en-US/docs/Web/HTML/Element/caption
-/en-US/docs/caret_temp	/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint
+/en-US/docs/caret_temp	/en-US/docs/Web/API/Document/caretPositionFromPoint
 /en-US/docs/ccache	/en-US/docs/Mozilla/Developer_guide/Build_Instructions/ccache
 /en-US/docs/ccs_temp	/en-US/docs/Web/API/Document/createCDATASection
 /en-US/docs/cellPadding	/en-US/docs/Web/API/HTMLTableElement/cellPadding
