@@ -176,7 +176,7 @@ tags:
 
 <p>In our <a href="https://github.com/mdn/webextensions-examples/tree/master/notify-link-clicks-i18n">notify-link-clicks-i18n</a> example, the<a href="https://github.com/mdn/webextensions-examples/blob/master/notify-link-clicks-i18n/background-script.js"> background script</a> contains the following lines:</p>
 
-<pre class="notranslate brush: js">var title = browser.i18n.getMessage("notificationTitle");
+<pre class="brush: js">var title = browser.i18n.getMessage("notificationTitle");
 var content = browser.i18n.getMessage("notificationContent", message.url);</pre>
 
 <p>The first one just retrieves the <code>notificationTitle message</code> field from the available <code>messages.json</code> file most appropriate for the browser's current locale. The second one is similar, but it is being passed a URL as a second parameter. What gives? This is how you specify the content to replace the <code>$URL$</code> placeholder we see in the <code>notificationContent message</code> field:</p>
@@ -254,7 +254,7 @@ var content = browser.i18n.getMessage("notificationContent", message.url);</pre>
       <ul>
        <li>messages.json
         <ul>
-         <li><code>{ "colorLocalised": { "message": "colour", "description": "Color." }, ... }</code></li>
+         <li><code>{ "colorLocalised": { "message": "color", "description": "Color." }, ... }</code></li>
         </ul>
        </li>
       </ul>
@@ -286,7 +286,7 @@ var content = browser.i18n.getMessage("notificationContent", message.url);</pre>
 <p>Suppose the <code>default_locale</code> is set to <code>fr</code>, and the browser's current locale is <code>en_GB</code>:</p>
 
 <ul>
- <li>If the extension calls <code>getMessage("colorLocalised")</code>, it will return "colour".</li>
+ <li>If the extension calls <code>getMessage("colorLocalised")</code>, it will return "color".</li>
  <li>If "colorLocalised" were not present in <code>en_GB</code>, then <code>getMessage("colorLocalised")</code>, would return "color", not "couleur".</li>
 </ul>
 

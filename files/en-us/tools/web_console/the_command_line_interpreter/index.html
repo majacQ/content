@@ -24,7 +24,7 @@ tags:
 
 <p>For example, if you type:</p>
 
-<pre class="brush: js notranslate">function foo() {</pre>
+<pre class="brush: js">function foo() {</pre>
 
 <p>and then <kbd>Enter</kbd>, the Console does not immediately execute the input, but behaves as if you had pressed <kbd>Shift</kbd>+<kbd>Enter</kbd> , so you can finish entering the function definition.</p>
 
@@ -34,7 +34,7 @@ tags:
 
 <p><img alt="Web Console in multi-line mode" src="web_console_multi.png" style="border-style: solid; border-width: 1px;"></p>
 
-<p>You can enter multiple lines of JavaScript by default in this mode, pressing <kbd>Enter</kbd> after each one. To execute the snippet that is currently in the editing pane, click the <strong>Run</strong> button or press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (or <kbd>Cmd</kbd>+<kbd>Return</kbd> on MacOS). The snippet is echoed under the input prompt (in the right-side pane), followed by the result. You can also select a range of lines in the editing pane, and run just the code on those lines.</p>
+<p>You can enter multiple lines of JavaScript by default in this mode, pressing <kbd>Enter</kbd> after each one. To execute the snippet that is currently in the editing pane, click the <strong>Run</strong> button or press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (or <kbd>Cmd</kbd>+<kbd>Return</kbd> on MacOS). The snippet is echoed under the input prompt (in the right-side pane), followed by the result.</p>
 
 <p>Starting in Firefox 76, if the code snippet is more than five lines long, only the first five lines are echoed in the console, preceded by a disclosure triangle (or "twistie"), and followed by an ellipsis (…). Click anywhere in the area containing the echoed code to show the whole snippet; click again in that area to collapse it.</p>
 
@@ -74,7 +74,8 @@ tags:
 <h2 id="Instant_evaluation">Instant evaluation</h2>
 
 <div class="notecard note">
-<p>This feature is available in Firefox Nightly, in versions labeled 74 and later.</p>
+  <h4>Note</h4>
+  <p>This feature is available in Firefox Nightly, in versions labeled 74 and later.</p>
 </div>
 
 <p>When the "instant evaluation" feature is enabled, the interpreter displays results of expressions as you're typing them in single-line mode. Note that the result might be an error message. Expressions that have side effects are not evaluated.</p>
@@ -94,7 +95,8 @@ tags:
 <p>The output is highlighted as well where appropriate.</p>
 
 <div class="notecard note">
-<p><strong>Note:</strong> Syntax highlighting is not visible in your browser if Accessibility features have been enabled.</p>
+  <h4>Note</h4>
+  <p>Syntax highlighting is not visible in your browser if Accessibility features have been enabled.</p>
 </div>
 
 <h2 id="Execution_history">Execution history</h2>
@@ -122,6 +124,9 @@ tags:
 
 <h2 id="Working_with_iframes">Working with iframes</h2>
 
+  <<<<<<< master
+<p><a href="/en-US/docs/Tools/Working_with_iframes">Working with iframes</a> explains how to direct all debugging tools to target a particular iframe, including the command line interpreter.</p>
+  =======
 <div class="notecard warning">
 <p>Deprecated since Firefox 74 ({{Bug(1605327)}}); see <a href="/en-US/docs/Tools/Working_with_iframes">Working with iframes</a> for the newer, more-reliable technique. (<code>cd()</code> apparently never worked well cross-origin.)</p>
 </div>
@@ -184,6 +189,7 @@ cd(frame.contentWindow);
 <p><img alt="" src="web-console-iframe-document.png" style="display: block; margin-left: auto; margin-right: auto;">And you can call the function defined in the iframe:</p>
 
 <p><img alt="" src="web-console-iframe-function.png" style="display: block; margin-left: auto; margin-right: auto;"></p>
+  >>>>>>> bfregist
 
 <h2 id="Helper_commands">Helper commands</h2>
 

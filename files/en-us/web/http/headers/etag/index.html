@@ -13,7 +13,7 @@ tags:
   specific version of a resource. It lets caches be more efficient and save bandwidth, as
   a web server does not need to resend a full response if the content has not changed.
   Additionally, etags help prevent simultaneous updates of a resource from overwriting
-  each other (<a href="#caching_of_unchanged_resources">"mid-air collisions"</a>).</p>
+  each other (<a href="#avoiding_mid-air_collisions">"mid-air collisions"</a>).</p>
 
 <p>If the resource at a given URL changes, a new <code>Etag</code> value <em>must</em> be
   generated. A comparison of them can determine whether two representations of a resource
@@ -36,7 +36,7 @@ tags:
 
 <h2 id="Syntax">Syntax</h2>
 
-<pre class="brush: html notranslate">ETag: W/"&lt;etag_value&gt;"
+<pre class="brush: html">ETag: W/"&lt;etag_value&gt;"
 ETag: "&lt;etag_value&gt;"
 </pre>
 
@@ -121,8 +121,7 @@ ETag: W/"0815"</pre>
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
 <div class="hidden">The compatibility table in this page is generated from structured
-  data. If you'd like to contribute to the data, please check out <a class="external"
-    href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a>
+  data. If you'd like to contribute to the data, please check out <a     href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a>
   and send us a pull request.</div>
 
 <p>{{Compat("http.headers.ETag")}}</p>
