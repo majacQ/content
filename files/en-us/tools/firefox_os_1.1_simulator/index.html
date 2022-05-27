@@ -36,10 +36,17 @@ tags:
 <p>This guide covers the following topics:</p>
 
 <ul>
+  <<<<<<< master
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#installing_the_simulator_add-on" title="#Installing">how to install the Simulator add-on</a></li>
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#adding_removing_and_refreshing_apps" title="#Adding-updating-removing">how to add, remove, and refresh apps</a></li>
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#manifest_validation" title="#Manifest-validation">manifest validation</a></li>
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#running_the_simulator" title="#Running-the-Simulator">how to run the Simulator</a></li>
+  =======
+ <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#installing" title="#Installing">how to install the Simulator add-on</a></li>
+ <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#adding-updating-removing" title="#Adding-updating-removing">how to add, remove, and refresh apps</a></li>
+ <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#manifest-validation" title="#Manifest-validation">manifest validation</a></li>
+ <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#running-the-simulator" title="#Running-the-Simulator">how to run the Simulator</a></li>
+  >>>>>>> bfregist
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#attaching-developer-tools" title="#Attaching-developer-tools">how to connect developer tools such as the JS debugger to apps running in the Simulator</a></li>
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#simulator-receipts" title="#Simulator-receipts">how to get test receipts for a paid app</a></li>
  <li><a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#push-to-device" title="#Push-to-device">how to push apps to a connected device</a></li>
@@ -150,7 +157,11 @@ tags:
 
 <ul>
  <li>the <a href="/en-US/docs/Web/Apps/Manifest#type">type</a> field is "certified", but the Simulator does not yet fully support certified apps</li>
+  <<<<<<< master
  <li>the manifest requests a <a href="/en-US/docs/Web/Apps/Manifest#permissions">permission</a> to use an API that is <a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#unsupported_apis" title="#Unsupported-APIs">not yet supported</a> by the Simulator</li>
+  =======
+ <li>the manifest requests a <a href="/en-US/docs/Web/Apps/Manifest#permissions">permission</a> to use an API that is <a href="/en-US/docs/Tools/Firefox_OS_1.1_Simulator#unsupported-apis" title="#Unsupported-APIs">not yet supported</a> by the Simulator</li>
+  >>>>>>> bfregist
 </ul>
 
 <h2 id="Running_the_Simulator">Running the Simulator</h2>
@@ -330,8 +341,13 @@ tags:
 <p>Certain APIs that work on the device won't work on the Simulator, generally because the supporting hardware is not available on the desktop. We've implemented simulations for some APIs such as geolocation, and expect to add more in future releases. However, at the moment the following APIs are not supported. Using them might throw errors or just return incorrect results:</p>
 
 <ul>
+  <<<<<<< master
  <li><a href="/en-US/docs/Archive/B2G_OS/API/Telephony">Telephony</a></li>
  <li><a href="/en-US/docs/Archive/B2G_OS/API/Mobile_Messaging_API">WebSMS</a></li>
+  =======
+ <li><a href="/en-US/docs/WebAPI/WebTelephony">Telephony</a></li>
+ <li><a href="/en-US/docs/WebAPI/WebSMS">WebSMS</a></li>
+  >>>>>>> bfregist
  <li><a href="/en-US/docs/Web/API/Web_Bluetooth_API">WebBluetooth</a></li>
  <li><a href="/en-US/docs/Web/API/Ambient_Light_Events">Ambient Light</a></li>
  <li><a href="/en-US/docs/Web/API/Proximity_Events">Proximity</a></li>

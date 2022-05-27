@@ -124,7 +124,72 @@ tags:
 
 <h2 id="Working_with_iframes">Working with iframes</h2>
 
+  <<<<<<< master
 <p><a href="/en-US/docs/Tools/Working_with_iframes">Working with iframes</a> explains how to direct all debugging tools to target a particular iframe, including the command line interpreter.</p>
+  =======
+<div class="notecard warning">
+<p>Deprecated since Firefox 74 ({{Bug(1605327)}}); see <a href="/en-US/docs/Tools/Working_with_iframes">Working with iframes</a> for the newer, more-reliable technique. (<code>cd()</code> apparently never worked well cross-origin.)</p>
+</div>
+
+<p>If a page contains embedded <a href="/en-US/docs/Web/HTML/Element/iframe">iframes</a>, you can use the <code>cd()</code> function to change the console's scope to a specific iframe, and then you can execute functions defined in the document hosted by that iframe. There are three ways to select an iframe using <code>cd()</code>:</p>
+
+<p>You can pass the iframe DOM element:</p>
+
+<pre class="brush: js notranslate">var frame = document.getElementById("frame1");
+cd(frame);</pre>
+
+<p>You can pass a CSS selector that matches the iframe:</p>
+
+<pre class="brush: js notranslate">cd("#frame1");</pre>
+
+<p>You can pass the iframe's global window object:</p>
+
+<pre class="brush: js notranslate">var frame = document.getElementById("frame1");
+cd(frame.contentWindow);
+</pre>
+
+<p>To switch the context back to the top-level window, call <code>cd()</code> with no arguments:</p>
+
+<pre class="brush: js notranslate">cd();</pre>
+
+<p>For example, suppose we have a document that embeds an iframe:</p>
+
+<pre class="brush: html notranslate">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;iframe id="frame1" src="static/frame/my-frame1.html"&gt;&lt;/iframe&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<p>The iframe defines a new function:</p>
+
+<pre class="brush: html notranslate">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;script&gt;
+      function whoAreYou() {
+        return "I'm frame1";
+      }
+   &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<p>You can switch context to the iframe like this:</p>
+
+<pre class="brush: js notranslate">cd("#frame1");</pre>
+
+<p>Now you'll see that the global window's document is the iframe:</p>
+
+<p><img alt="" src="web-console-iframe-document.png" style="display: block; margin-left: auto; margin-right: auto;">And you can call the function defined in the iframe:</p>
+
+<p><img alt="" src="web-console-iframe-function.png" style="display: block; margin-left: auto; margin-right: auto;"></p>
+  >>>>>>> bfregist
 
 <h2 id="Helper_commands">Helper commands</h2>
 

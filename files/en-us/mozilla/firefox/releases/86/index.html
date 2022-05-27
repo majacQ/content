@@ -36,7 +36,29 @@ tags:
  <li>SVG filters can now use the {{SVGElement("feComposite")}} element with the <a href="/en-US/docs/Web/SVG/Attribute/operator#fecomposite"><code>lighter</code> operator</a> ({{bug(1518099)}}). This operator sums the pixels of two source graphics.</li>
 </ul>
 
+  <<<<<<< master
 <h3 id="CSS">CSS</h3>
+  =======
+<h4 id="Removals_3">Removals</h4>
+
+<h3 id="JavaScript">JavaScript</h3>
+
+<ul>
+  <li>
+    The <a href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames"><code>Intl.DisplayNames</code></a> built-in object has been implemented. This enables the consistent translation of language, region and script display names:
+    <pre class="notranslate brush: js">
+// Get display names of currency code in English
+let currencyNames = new Intl.DisplayNames(['en'], {type: 'currency'});
+// Get currency names
+currencyNames.of('USD'); // "US Dollar"
+currencyNames.of('EUR'); // "Euro"</pre>
+  </li>
+ </ul>
+
+<h4 id="Removals_4">Removals</h4>
+
+<h3 id="HTTP">HTTP</h3>
+  >>>>>>> bfregist
 
 <ul>
   <li>The {{cssxref(":autofill")}} pseudo-class is now enabled, with <code>-webkit-autofill</code> as an alias ({{bug(1685675)}}) and ({{bug(1475316)}}). </li>
