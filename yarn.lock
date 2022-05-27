@@ -39,10 +39,17 @@
   resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.5.tgz#7671e4ba4d344e20d969fe4a9086d453ac168a59"
   integrity sha512-Pu2Usbl9YTpeNxYKRebFRE4fV85I/thTMpF1eKS2EsgODg9VkcK0/oRZqEFhR6/So5wSPYIBHvfmVFXx0uCt/g==
 
+  <<<<<<< dependabot/npm_and_yarn/mdn/yari-0.4.248
+"@mdn/yari@0.4.248":
+  version "0.4.248"
+  resolved "https://registry.yarnpkg.com/@mdn/yari/-/yari-0.4.248.tgz#4f2e4a1506854f26b5fd9bcf2ea83dd64909a0dd"
+  integrity sha512-vWmG2OTzUhozonMQcMeSMgeJkios3I1sr0q1c+dOd2tW9WtmJyF66r26fs/68QYdPv5HoelxTap9FzJ/0ISQTA==
+  =======
 "@mdn/yari@0.4.530":
   version "0.4.530"
   resolved "https://registry.yarnpkg.com/@mdn/yari/-/yari-0.4.530.tgz#fcc5dbb7c130449c609f4c234483b2139144ce08"
   integrity sha512-T7Ciz3wmcf0r/bzpTW37TK4GIAJYqRZh5ZFO5wMUfOkwj00HoWU5DdT41QcQylce2OGL2v16UeenCd5Q+qANcQ==
+  >>>>>>> dependabot/npm_and_yarn/mdn/yari-0.4.530
   dependencies:
     "@caporal/core" "2.0.2"
     "@fast-csv/parse" "4.3.6"
